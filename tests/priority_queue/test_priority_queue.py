@@ -4,21 +4,21 @@ from ting_file_management.priority_queue import PriorityQueue
 
 def test_basic_priority_queueing():
     inputs = [
-    {
-        "nome_do_arquivo": "arquivo_teste.txt",
-        "qtd_linhas": 6,
-        "linhas_do_arquivo": [...]
-    },
-    {
-        "nome_do_arquivo": "arquivo_teste.txt",
-        "qtd_linhas": 4,
-        "linhas_do_arquivo": [...]
-    },
-    {
-        "nome_do_arquivo": "arquivo_teste.txt",
-        "qtd_linhas": 2,
-        "linhas_do_arquivo": [...]
-    },
+        {
+            "nome_do_arquivo": "arquivo_teste.txt",
+            "qtd_linhas": 6,
+            "linhas_do_arquivo": [...],
+        },
+        {
+            "nome_do_arquivo": "arquivo_teste.txt",
+            "qtd_linhas": 4,
+            "linhas_do_arquivo": [...],
+        },
+        {
+            "nome_do_arquivo": "arquivo_teste.txt",
+            "qtd_linhas": 2,
+            "linhas_do_arquivo": [...],
+        },
     ]
     instance = PriorityQueue()
     for input in inputs:
